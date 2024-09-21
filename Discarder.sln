@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{28fbe31b-521d-4256-8874-1eae5f8a9273}") = "Discarder", "Discarder.csproj", "{f471df5b-0271-4683-9e2b-909e92951a0d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dist|Any CPU = Dist|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f471df5b-0271-4683-9e2b-909e92951a0d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f471df5b-0271-4683-9e2b-909e92951a0d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f471df5b-0271-4683-9e2b-909e92951a0d}.Dist|Any CPU.ActiveCfg = Dist|Any CPU
+		{f471df5b-0271-4683-9e2b-909e92951a0d}.Dist|Any CPU.Build.0 = Dist|Any CPU
+		{f471df5b-0271-4683-9e2b-909e92951a0d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{f471df5b-0271-4683-9e2b-909e92951a0d}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {c121aaa1-52d7-48aa-a9f5-e79610df1fb5}
+	EndGlobalSection
+EndGlobal
