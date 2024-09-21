@@ -8,8 +8,6 @@ namespace Discarder
     {
         public void Awake()
         {
-            Settings.Init(Config);
-
             ContextMenuPatches.Enable();
             DiscardPatches.Enable();
         }
