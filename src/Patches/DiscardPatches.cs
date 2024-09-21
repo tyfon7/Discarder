@@ -1,6 +1,8 @@
+using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
 using SPT.Reflection.Patching;
+using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using UIFixesInterop;
@@ -24,9 +26,9 @@ public static class DiscardPatches
         }
 
         [PatchPrefix]
-        public static bool Prefix(ItemUiContext __instance, ref Task __result)
+        public static bool Prefix(ItemUiContext __instance, Item item, ref Task __result)
         {
-            if (InPatch || MultiSelect.Count <= 1)
+            if (InPatch || MultiSelect.Count <= 1 || !MultiSelect.Items.Contains(item))
             {
                 return true;
             }
