@@ -1,8 +1,8 @@
-﻿using EFT.InventoryLogic;
+﻿using System.Reflection;
+using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using System.Reflection;
 using TMPro;
 using UIFixesInterop;
 
